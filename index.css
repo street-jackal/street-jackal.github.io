@@ -1,0 +1,133 @@
+<style>
+  body {
+    margin: 0 auto;
+  }
+
+  main {
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    background: linear-gradient(135deg, #f9f5d7 20%, #689d6a 20%, #689d6a 35%, #f9f5d7 35%);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  header {
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Questrial', sans-serif;
+    color: #f9f5d7;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 1%;
+  }
+
+  h1 {
+    font-family: 'Questrial', sans-serif;
+    font-size: 22px;
+    margin: 0 2.5% 2% 2.5%;
+  }
+
+  p {
+    font-size: 20px;
+    color: #282828;
+    width: 90%;
+    text-align: justify;
+    margin: 0 5% 10px 5%;
+  }
+
+  li {
+    margin: 0 5%;
+  }
+
+  a {
+    text-decoration: none;
+    color: #689d6a;
+  }
+
+  a:hover {
+    color: #b16286
+  }
+
+  .main-section {
+    display: block;
+    width: 100%;
+    
+    padding: 60px 0px 0px 0px;
+    margin: 80px 0px 0px 0px;
+  }
+
+  .txt-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    background: black;
+    background-size: 100%;
+    text-align: left;
+  }
+
+  #navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    margin: 0px 0px 0px -10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 22px;
+
+  }
+
+  .nav-link {
+    text-decoration: none;
+    font-family: 'Questrial', sans-serif;
+    font-weight: bold;
+    margin: 50px 0px 0px 0px;
+    color: #98971a;
+    padding: 5px 5px 5px 5px;
+  }
+
+  .nav-link:hover {
+    color: #d65d0e;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin: 50px auto;
+    width: 90%;
+    height: 700px;
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .card-container {
+      grid-template-columns: 1fr;
+      width: 95%;
+    }
+
+    .card {
+      max-height: 50vh;
+    }
+  }
+
+  .card {
+    background-color: #f9f5d7;
+    border: 1px solid #282828;
+    width: 100%;
+    height: 100%;
+    box-shadow: 1px 0 5px #282828, 0 1px 5px #282828, -1px 0 5px #282828, 0 -1px 5px #282828;
+    padding: 10px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Questrial', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #282828;
+  }
+
+  .card:hover {
+    box-shadow: 1px 0 10px #d65d0e, 0 1px 10px #d65d0e, -1px 0 10px #d65d0e, 0 -1px 10px #d65d0e;
+  }
+</style>
