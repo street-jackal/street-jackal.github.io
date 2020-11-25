@@ -22,7 +22,6 @@
           let target = document.querySelector(hashval);
           target.scrollIntoView({
             behavior: 'smooth',
-            block: 'start'
           });
           console.log("scrolled " + hashval + " into view");
           history.pushState(null, null, hashval);
@@ -34,8 +33,6 @@
   </script>
 
 </head>
-
-
 
 <header id="header" class="txt-header">Jon Myers</header>
 <title>Home Page & Portfolio</title>
@@ -49,15 +46,14 @@
 
 <main>
 
-  <section id="home" class="main-section">
-    <h1>Hi</h1>
+  <section class="main-section">
+    <h1 id="home">Hi</h1>
     <p>I'm Jon. I'm an experienced mechanical engineer and aspiring software developer.</p>
     <p>My professional background ranges from consumer product design and testing, to designing outfitting components
       and manufacturing support for high-speed military watercraft. </p>
   </section>
-  <section id="projects" class="main-section">
-    <h1>Projects</h1>
-
+  <section class="main-section">
+    <h1 id="projects">Projects</h1>
     <div class="card-container">
       <a href="/physical-wash.html" target="_blank" class="card">Product Landing Page</a>
       <a href="/twentyfive" target="_blank" class="card">Twenty-Five Plus Five Timer (React frontend example with
@@ -87,8 +83,8 @@
     </p>
   </section>
 
-  <section id="education" class="main-section">
-    <h1>Education & Training</h1>
+  <section class="main-section">
+    <h1 id="education">Education & Training</h1>
     <p><b>Developer Certifications</b></p>
     <p><a
         href="https://freecodecamp.org/certification/fcc1b317739-2ce0-4c78-afef-517a5b3e5ae9/front-end-libraries">Front
@@ -116,8 +112,8 @@
 
   </section>
 
-  <section id="personal" class="main-section">
-    <h1>Personal Life</h1>
+  <section class="main-section">
+    <h1 id="personal">Personal Life</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
       magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
       consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -132,8 +128,8 @@
       molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
   </section>
 
-  <section id="contact" class="main-section">
-    <h1>Contact</h1>
+  <section class="main-section">
+    <h1 id="contact">Contact</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
       magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
       consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
