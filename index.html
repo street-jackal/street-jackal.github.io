@@ -23,7 +23,6 @@
           target.scrollIntoView({
             behavior: 'smooth',
           });
-          console.log("scrolled " + hashval + " into view");
           history.pushState(null, null, hashval);
           e.preventDefault();
         })
