@@ -151,3 +151,12 @@ header:hover{
   .card:hover {
     box-shadow: 1px 0 10px #d65d0e, 0 1px 10px #d65d0e, -1px 0 10px #d65d0e, 0 -1px 10px #d65d0e;
   }
+
+  /* Style all font awesome icons */
+.fa {
+  font-size: 30px;
+}
+
+#fa-sep{
+  color: #689d6a;
+}
