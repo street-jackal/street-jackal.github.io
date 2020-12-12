@@ -115,7 +115,6 @@ a:hover {
   gap: 10px 30px;
   margin: 50px auto;
   width: 90%;
-  height: 700px;
 }
 
 @media (pointer:none), (pointer:coarse) {
