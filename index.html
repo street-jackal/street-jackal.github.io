@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="home">
 
 <head>
 
@@ -15,9 +15,9 @@
   <!-- Add icon library -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <!-- Add smooth scrolling to anchor links it navbar -->
-  <script type="text/javascript">
-    document.addEventListener('DOMContentLoaded', function () {
+  <!-- Add smooth scrolling to anchor links in navbar -->
+  <!--<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', () => {
       let anchorlinks = document.querySelectorAll('a[href^="#"]');
       for (let item of anchorlinks) {
         item.addEventListener('click', (e) => {
@@ -31,7 +31,7 @@
         })
       }
     }, false);
-  </script>
+  </script>-->
 
 </head>
 
@@ -54,7 +54,7 @@
 
   <main>
     <section class="main-section">
-      <h1 id="home">Hi</h1>
+      <h1>Hi</h1>
       <p>I'm Jon. I'm an experienced mechanical engineer and aspiring software developer.</p>
       <p>My professional background ranges from consumer product design and testing, to designing outfitting components
         and manufacturing support for high-speed military watercraft. </p>
@@ -62,7 +62,6 @@
     <section class="main-section">
       <h1 id="projects">Projects</h1>
       <div class="card-container">
-        <a href="/physical-wash.html" target="_blank" class="card">Product Landing Page</a>
         <a href="/twentyfive" target="_blank" class="card">Twenty-Five Plus Five Timer (React frontend example with
           hooks)
           <br />
@@ -70,7 +69,12 @@
             src="timer.png"
             width="80%" max-height="90%">
         </a>
-        <a href="/markdown-preview" target="_blank" class="card">Markdown Previewer (React frontend example)</a>
+        <a href="/choropleth" target="_blank" class="card">US Education Level (D3 Choropleth Example)
+          <br />
+          <img
+            src="choropleth.png"
+            width="80%" max-height="90%">
+        </a>
         <a href="/drum-machine" target="_blank" class="card">HTML5 Drum Machine (Bootstrap/JS/HTML example)</a>
         <a href="/calculator" target="_blank" class="card">JS Calculator (React/JS example)
           <br />
@@ -78,9 +82,6 @@
             src="calc.png"
             width="80%" max-height="90%">
         </a>
-        <a href="https://codepen.io/jonmyers/pen/zYBqdNO" target="_blank" class="card">Technical Documentation Page</a>
-        <a href="https://codepen.io/jonmyers/pen/JjKGNrZ" target="_blank" class="card">Information Collection Form</a>
-        <a href="https://codepen.io/jonmyers/pen/rNLxWyz" target="_blank" class="card">Tribute Page</a>
         <a href="https://www.leatherman.com/free-t4-581.html" target="_blank" class="card">Free T4
           <br />
           <img
@@ -164,7 +165,7 @@
         document.getElementById("navbar").style.fontSize = "3.8vw";
         document.getElementById("navbar").style.height = "60px";
         document.getElementById("header").style.opacity = "0%";
-        document.getElementById("header").style.top = "500px";
+        document.getElementById("header").style.top = "80px";
       } 
       else {
         document.getElementById("navbar").style.padding = "0 0 0 0";
