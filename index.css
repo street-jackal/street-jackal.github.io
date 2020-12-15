@@ -48,12 +48,14 @@ main {
   top: 0;
   width: 100vw;
   height: 80px;
+  white-space:nowrap;
+  overflow:hidden;
   text-overflow:ellipsis;
   font-size: 2vw;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  align-items:flex-end;
+  align-items: flex-end;
   background: linear-gradient(
     45deg,
     var(--black) 20%,
@@ -151,13 +153,16 @@ a:hover {
 }
 
 .card {
-  display: block;
+  display: flex;
   background-color: var(--tan);
   width: 100%;
   box-shadow: 1px 0 5px var(--black), 0 1px 5px var(--black), -1px 0 5px var(--black),
     0 -1px 5px var(--black);
   padding: 10px 10px 10px 10px;
   text-align: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   font-weight: bold;
   font-family: "Questrial", sans-serif;
   font-size: 18px;
