@@ -12,8 +12,8 @@
 :target::before {
   content: "";
   display: block;
-  height: 80px;
-  margin: -80px 0 0;
+  height: 10vh;
+  margin: -10vh 0 0;
 }
 
 /* set color for overflow when dragging */
@@ -24,7 +24,7 @@ html{
 
 body {
   margin: 0 auto;
-  padding-top: 80px;
+  padding-top: 10vh;
 }
 
 main {
@@ -47,7 +47,7 @@ main {
   position: fixed;
   top: 0;
   width: 100vw;
-  height: 80px;
+  height: 10vh;
   white-space:nowrap;
   overflow:hidden;
   text-overflow:ellipsis;
@@ -84,7 +84,7 @@ header {
   position: fixed;
   top: 0;
   left: 1%;
-  font-size: 80px;
+  font-size: 12vh;
   font-weight: bold;
   font-family: "Questrial", sans-serif;
   text-align: left;
@@ -151,10 +151,6 @@ a:hover {
     height: 50vh;
   }
 
-  .navbar{
-    height: 20%;
-    font-size: 6vw;
-  }
 }
 
 .card {
