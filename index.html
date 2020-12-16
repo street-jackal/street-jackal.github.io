@@ -44,13 +44,12 @@
   <header id="header">Jon Myers</header>
   <a href="#home" class="nav-link">Home</a>
   <a href="#projects" class="nav-link">Projects</a>
-  <a href="#education" class="nav-link">Education & Training</a>
+  <a href="#education" class="nav-link">Education</a>
   <a href="#personal" class="nav-link">Personal Life</a>
-  <a class="fa fa-arrow-circle-o-right nav-link" id="fa-sep"></a>
+  <a class="fa fa-link nav-link" id="fa-sep"></a>
   <a href="https://github.com/street-jackal" target="_blank" class="fa fa-github nav-link"></a>
-  <a href="https://www.codewars.com/users/street_jackal" target="_blank" class="nav-link">
-      <i class="iconify nav-link codewars" data-icon="simple-icons:codewars" data-inline="true"></i>
-  </a>
+  <a href="https://www.codewars.com/users/street_jackal" target="_blank" class="fa fa-code nav-link">
+  <a href="https://www.freecodecamp.org/fcc1b317739-2ce0-4c78-afef-517a5b3e5ae9" target="_blank" class="fa fa-free-code-camp nav-link">
   <a href="https://linkedin.com/in/jonmcintiremyers" target="_blank" class="fa fa-linkedin nav-link"></a>
 </nav>
 
@@ -71,7 +70,7 @@
             src="calc.png"
             width="80%" max-height="90%">
         </a>
-        <a href="/twentyfive" target="_blank" class="card">Twenty-Five Plus Five Timer (React frontend example with
+        <a href="/twentyfive" target="_blank" class="card">Session/Break Timer (React frontend example with
           hooks)
           <br />
           <img
@@ -168,12 +167,15 @@
       if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
         document.getElementById("navbar").style.fontSize = "3.8vw";
         document.getElementById("navbar").style.height = "60px";
+        document.getElementById("navbar").style.justifyContent = "center";
         document.getElementById("header").style.opacity = "0%";
         document.getElementById("header").style.top = "80px";
+
       } 
       else {
         document.getElementById("navbar").style.fontSize = "2vw";
         document.getElementById("navbar").style.height = "80px";
+        document.getElementById("navbar").style.justifyContent = "flex-end";
         document.getElementById("header").style.opacity = "100%";
         document.getElementById("header").style.top = "0";
       }
