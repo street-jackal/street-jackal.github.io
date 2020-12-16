@@ -4,8 +4,11 @@
   --purple: #b16286;
   --black: #282828;
   --green: #689d6a;
-  --tan: #f9f5d7;
+  --tan: #fbf1c7;
+  --grey: #a89984;
+  --light-grey: #bdae93;
   --orange: #d65d0e;
+  --blue: #83a598;
 }
 
 /* Deal with fixed header when scrolling to anchor links */
@@ -135,7 +138,7 @@ a:hover {
 
 .card-container {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(5, 1fr);
   gap: 10px 30px;
   margin: 50px auto;
   width: 90%;
@@ -148,7 +151,7 @@ a:hover {
   }
 
   .card {
-    height: 50vh;
+    height: 25vh;
   }
 }
 
@@ -173,7 +176,7 @@ a:hover {
 
 .card:hover {
   color: var(--orange);
-  background-color: var(--black);
+  background-color: var(--light-grey);
 }
 
 /* Style all font awesome icons */
