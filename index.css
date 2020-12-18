@@ -1,15 +1,31 @@
-/* Theme colors */ 
+/* Original theme colors */ 
+/*
 :root {
   --yellow: #98971a;
   --purple: #b16286;
   --black: #282828;
   --green: #689d6a;
-  --tan: #fbf1c7;
+  --tan: #f9f5d7;
   --grey: #a89984;
   --light-grey: #bdae93;
   --orange: #d65d0e;
   --blue: #83a598;
 }
+*/
+
+/* Alternate muted color theme */
+:root {
+  --yellow: #f9f5d7;
+  --purple: #689d6a;
+  --black: #282828;
+  --green:#a89984;
+  --tan: #f9f5d7;
+  --grey: #a89984;
+  --light-grey: #bdae93;
+  --orange: #a89984;
+  --blue: #83a598;
+}
+
 
 /* Deal with fixed header when scrolling to anchor links */
 :target::before {
@@ -37,10 +53,10 @@ main {
   /* Set parameters for background diagonal stripe */
   background: linear-gradient(
     135deg,
-    var(--tan) 20%,
-    var(--green) 20%,
-    var(--green) 35%,
-    var(--tan) 35%
+    var(--tan) 23%,
+    var(--green) 23%,
+    var(--green) 40.5%,
+    var(--tan) 40.5%
   );
   background-size: 100vw;
   background-repeat: no-repeat;
@@ -122,7 +138,8 @@ li {
 
 a {
   text-decoration: none;
-  color: var(--green);
+  /* was --green */
+  color: var(--black);
 }
 
 a:hover {
