@@ -2,13 +2,15 @@
 <html lang="en" id="home">
   <head>
     <meta charset="utf-8" />
-    <title>Homepage & Portfolio</title>
-    <link rel="icon" href="favicon.ico" type="image/icon type" />
     <meta name="page" content="stuff" />
     <meta name="Jon Myers" content="Portfolio & Homepage" />
+
+    <title>Homepage & Portfolio</title>
+
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+    <link rel="icon" href="favicon.ico" type="image/icon type" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Questrial&display=swap"
@@ -21,11 +23,12 @@
     />
   </head>
 
-  <body class = 'hidden'>
+  <body class="hidden">
+    <!--Fade whole page in when content is ready-->
     <script>
       $(document).ready(() => {
         $("body").fadeIn(500);
-        $("body").removeClass("hidden")
+        $("body").removeClass("hidden");
       });
     </script>
 
@@ -105,19 +108,20 @@
         <!--
       <li>Spacenavigator MIDI interface</li>
       <li>Physics-based web animations - contribute to the anime.js project?</li>
-      <li>Ramen (etc) review web app with persistent database</li>
+      <li>Ramen (etc) review web app with mongodb database</li>
       <li>First moment of area calculator</li>
       <li>Revisit Boeing project in C++ / OpenCV / Arduino</li>
       <li>MIDI Guerilla</li>
       <li>Laserharp</li>
       </p>
-      --></section>
+      -->
+    </section>
 
       <section class="main-section">
         <h1 id="education">Education & Training</h1>
         <p><b>Developer Certifications</b></p>
         <p>
-          <a href="">
+          <a href="https://www.freecodecamp.org/certification/fcc1b317739-2ce0-4c78-afef-517a5b3e5ae9/apis-and-microservices">
             APIs & Microservices (NPM, Node.js, Express, Mongoose, MongoDB)
           </a>
         </p>
@@ -201,15 +205,17 @@
           document.body.scrollTop > 80 ||
           document.documentElement.scrollTop > 80
         ) {
-          document.getElementById("navbar").style.fontSize = "350%";
+          document.getElementById("navbar").style.fontSize = "4vw";
           document.getElementById("navbar").style.height = "70px";
           document.getElementById("navbar").style.justifyContent = "center";
+          document.getElementById("navbar").style.alignItems = "center";
           document.getElementById("header").style.opacity = "0%";
           document.getElementById("header").style.top = "80px";
         } else {
-          document.getElementById("navbar").style.fontSize = "150%";
+          document.getElementById("navbar").style.fontSize = "2vw";
           document.getElementById("navbar").style.height = "80px";
           document.getElementById("navbar").style.justifyContent = "flex-end";
+          document.getElementById("navbar").style.alignItems = "flex-end";
           document.getElementById("header").style.opacity = "100%";
           document.getElementById("header").style.top = "0";
         }
