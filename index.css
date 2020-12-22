@@ -26,6 +26,7 @@
   --orange: #a89984;
   --blue: #83a598;
   --bright: #d65d0e;
+  --bright2: #98971a;
 }
 
 /* Deal with fixed header when scrolling to anchor links */
@@ -61,7 +62,9 @@ main {
     135deg,
     var(--tan) 23%,
     var(--green) 23%,
-    var(--green) 40.5%,
+    var(--green) 38%,
+    var(--purple) 38%,
+    var(--purple) 40.5%,
     var(--tan) 40.5%
   );
   background-size: 100vw;
@@ -85,7 +88,9 @@ main {
     45deg,
     var(--black) 20%,
     var(--orange) 20%,
-    var(--orange) 35%,
+    var(--orange) 30%,
+    var(--bright) 30%,
+    var(--bright) 35%,
     var(--black) 35%
   );
   transition: 0.2s ease-in-out;
@@ -121,13 +126,9 @@ header {
 h1 {
   font-family: "Questrial", sans-serif;
   font-size: 22px;
-  color: var(--purple);
-  margin: 0 2.5% 2% 2.5%;
-  transition: color 1s ease-in-out;
-}
-
-h1:hover {
+  font-weight: bolder;
   color: var(--black);
+  margin: 0 2.5% 2% 2.5%;
 }
 
 p {
@@ -149,33 +150,34 @@ a {
 }
 
 a:hover {
-  color: var(--purple);
+  color: var(--bright);
 }
 
 .main-section {
   display: block;
   width: 100vw;
   padding: 30px 0px 30px 0px;
-  margin: 0px 0px 0px 0px;
+  margin: 0;
 }
 
 .card-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 10px 30px;
-  margin: 50px auto;
+  justify-items: center;
+  margin: 0 auto;
   width: 90%;
 }
 
 @media (pointer:none), (pointer:coarse) {
   .card-container {
     grid-template-columns: 1fr;
-    gap: 10px;
-    width: 95%;
+    gap: 40px;
   }
 
   .card {
-    height: 80%;
+    height: 100%;
+    font-size: 24px;
   }
 }
 
@@ -199,8 +201,8 @@ a:hover {
 }
 
 .card:hover {
-  color: var(--orange);
-  background-color: var(--light-grey);
+  background-color: var(--bright);
+  color: var(--tan);
 }
 
 /* Style all font awesome icons */
