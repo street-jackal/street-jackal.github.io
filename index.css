@@ -80,7 +80,7 @@ p {
   color: var(--black);
   width: 90%;
   text-align: justify;
-  margin: 0 5% 10px 5%;
+  margin: 20px 5% 20px 5%;
 }
 
 li {
@@ -155,8 +155,7 @@ a:hover {
   display: flex;
   background-color: var(--tan);
   width: 100%;
-  box-shadow: 1px 0 5px var(--black), 0 1px 5px var(--black), -1px 0 5px var(--black),
-    0 -1px 5px var(--black);
+  box-shadow: 0 4px 10px 0 var(--black), 0 6px 10px 0 var(--black);
   padding: 10px 10px 10px 10px;
   text-align: center;
   flex-direction: column;
