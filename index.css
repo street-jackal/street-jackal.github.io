@@ -1,31 +1,14 @@
-/* Original theme colors */ 
-/**
+/* Color theme */
+
 :root {
-  --yellow: #98971a;
+  --tan: #f9f5d7;
   --purple: #b16286;
   --black: #282828;
-  --green: #689d6a;
-  --tan: #f9f5d7;
+  --green:#689d6a;
   --grey: #a89984;
   --light-grey: #bdae93;
+  --blue: #83a598;
   --orange: #d65d0e;
-  --blue: #83a598;
-}
-*/
-
-/* Alternate muted color theme */
-
-:root {
-  --yellow: #f9f5d7;
-  --purple: #689d6a;
-  --black: #282828;
-  --green:#a89984;
-  --tan: #f9f5d7;
-  --grey: #a89984;
-  --light-grey: #bdae93;
-  --orange: #a89984;
-  --blue: #83a598;
-  --bright: #d65d0e;
   --bright2: #98971a;
 }
 
@@ -62,10 +45,10 @@ main {
   background: linear-gradient(
     135deg,
     var(--tan) 23%,
-    var(--green) 23%,
+    var(--grey) 23%,
+    var(--grey) 38%,
     var(--green) 38%,
-    var(--purple) 38%,
-    var(--purple) 40.5%,
+    var(--green) 40.5%,
     var(--tan) 40.5%
   );
   background-size: 100vw;
@@ -111,7 +94,7 @@ a {
 }
 
 a:hover {
-  color: var(--bright);
+  color: var(--orange);
 }
 
 #navbar {
@@ -132,8 +115,8 @@ a:hover {
     var(--black) 20%,
     var(--orange) 20%,
     var(--orange) 30%,
-    var(--bright) 30%,
-    var(--bright) 35%,
+    var(--orange) 30%,
+    var(--orange) 35%,
     var(--black) 35%
   );
   transition: 0.2s ease-in-out;
@@ -142,13 +125,13 @@ a:hover {
 .nav-link {
   text-decoration: none;
   font-weight: bold;
-  color: var(--yellow);
+  color: var(--tan);
   padding: 5px 5px 5px 5px;
   transition: color .5s ease-in-out;
 }
 
 .nav-link:hover {
-  color: var(--bright);
+  color: var(--orange);
 }
 
 
@@ -187,7 +170,7 @@ a:hover {
 }
 
 .card:hover {
-  background-color: var(--bright);
+  background-color: var(--orange);
   color: var(--tan);
 }
 
@@ -211,5 +194,13 @@ a:hover {
 }
 
 #fa-sep {
-  color: var(--purple);
+  color: var(--green);
+}
+
+.inline-link{
+  color: var(--purple)
+}
+
+.inline-link:hover{
+  text-decoration: underline;
 }

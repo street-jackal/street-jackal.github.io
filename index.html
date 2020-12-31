@@ -23,7 +23,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!--Fade whole page in when content is ready-->
     <script>
-      $(document).ready(() => {
+      $(window).on("load", () => {
         $("body").fadeIn(500);
         $("body").removeClass("hidden");
       });
@@ -38,16 +38,16 @@
       <a href="#projects" class="nav-link">Projects</a>
       <a href="#education" class="nav-link">Education</a>
       <a href="#personal" class="nav-link">Personal Life</a>
-      <a class="fas fa-link nav-link" id="fa-sep"></a>
+      <a class="fa fa-ellipsis-v nav-link" id="fa-sep"></a>
       <a
         href="https://github.com/street-jackal"
         target="_blank"
         class="fab fa-github nav-link"
       ></a>
       <a
-        href="https://www.codewars.com/users/street_jackal"
+        href="Resume-JM.pdf"
         target="_blank"
-        class="fas fa-code nav-link"
+        class="fas fa-address-card nav-link"
       ></a>
       <a
         href="https://www.freecodecamp.org/fcc1b317739-2ce0-4c78-afef-517a5b3e5ae9"
@@ -69,16 +69,26 @@
           developer.
         </p>
         <p>
-          My professional background ranges from consumer product design and
-          testing, to designing outfitting components and manufacturing support
+          My <a href=resume-jm.pdf class="inline-link">professional background</a> ranges from consumer product design and
+          testing, to designing outfitting compo  nents and manufacturing support
           for high-speed military watercraft.
+        </p>
+        <p>
+          I was laid off from my full-time job as a mechanical design engineer due to the emergence of coronavirus, 
+          and have spent nearly all of my newfound free time working towards transitioning to a career as a developer. I 
+          had been planning on making this move for a few years, though I wasn't quite sure how I'd be able to pull it off with my schedule. 
+          The past several months have allowed me to devote myself fully to this project however, and I'm excited to share the progress I've made.
+        </p>
+        <p>
+          Below are a selection of the projects I've created while working through the curriculum at <a href="freecodecamp.org" class="inline-link">freeCodeCamp.org</a>. 
+          Check out <a href="https://github.com/street-jackal" class="inline-link">my github</a> for full source code for these and other projects!
         </p>
       </section>
       <section class="main-section">
         <h1 id="projects"><i class="fas fa-cogs fa-marginr"></i>Projects</h1>
         <div class="card-container">
           <a href="/calculator" target="_blank" class="card"
-            >Calculator (React/JS example)
+            >Calculator (React/JS Example)
             <br />
             <img src="calc.png" width="80%" max-height="90%" />
           </a>
@@ -88,17 +98,17 @@
             <img src="timer.png" width="80%" max-height="90%" />
           </a>
           <a href="/choropleth" target="_blank" class="card"
-            >US Education Level (D3 Choropleth Example)
+            >Choropleth (D3 Example)
             <br />
             <img src="choropleth.png" width="80%" max-height="90%" />
           </a>
           <a href="/heatmap" target="_blank" class="card"
-            >D3 Heatmap
+            >Heatmap (D3 Example)
             <br />
             <img src="heatmap.png" width="80%" max-height="90%" />
           </a>
           <a href="/treemap" target="_blank" class="card"
-            >D3 Treemap
+            >Treemap (D3 Example)
             <br />
             <img src="treemap.png" width="80%" max-height="90%" />
           </a>
@@ -108,7 +118,7 @@
           <img src="metadata.png" width="80%" max-height="90%" />
         </a>
         <a href="https://fcc---exercise.herokuapp.com/" target="_blank" class="card"
-          >Database Interaction (Node.js, MongoDB, Express)
+          >Exercise Tracker (Node.js, MongoDB, Express)
           <br />
           <img src="exercise.png" width="80%" max-height="90%" />
         </a>
@@ -122,7 +132,6 @@
       <li>Spacenavigator MIDI interface</li>
       <li>Physics-based web animations - contribute to the anime.js project?</li>
       <li>Ramen (etc) review web app with mongodb database</li>
-      <li>First moment of area calculator</li>
       <li>Revisit Boeing project in C++ / OpenCV / Arduino</li>
       <li>MIDI Guerilla</li>
       <li>Laserharp</li>
@@ -142,7 +151,7 @@
           <a
             href="https://www.freecodecamp.org/certification/fcc1b317739-2ce0-4c78-afef-517a5b3e5ae9/data-visualization"
           >
-            Data Visualization (D3: bar graphs, scatter plots, heat maps, tree
+            Data Visualization (D3 library: bar graphs, scatter plots, heat maps, tree
             maps, choropleth)
           </a>
         </p>
