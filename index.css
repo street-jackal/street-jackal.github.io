@@ -203,3 +203,22 @@ a:hover {
 .inline-link:hover{
   text-decoration: underline;
 }
+
+.footer{
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    font-size: 40px;
+    background: linear-gradient(
+    180deg,
+    var(--green) 0%,
+    var(--green) 50%,
+    var(--black) 50%,
+    var(--black) 100%
+  );
+  }
+  .footer-text{
+    color: var(--tan);
+    padding: 0 10px;
+  }
