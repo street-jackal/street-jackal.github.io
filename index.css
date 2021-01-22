@@ -207,8 +207,8 @@ a:hover {
   }
 
   .card {
-    height: 100%;
-    font-size: 24px;
+    height: 40vh;
+    font-size: 3vh;
   }
 }
 
