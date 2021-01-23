@@ -184,9 +184,12 @@ a:hover {
 
 .card:hover span{
   text-decoration: underline;
+  text-decoration-color: var(--green);
+  text-decoration-thickness: 3px;
+  color: var(--black);
 }
 
-
+/** Hover content for cards */
 [id*="ramen"]:hover:after {content:"Full-stack Django app with login/authentication, image upload, and image processing to create themes for each item's page. Hosted on an Apache server running on a Raspberry Pi 3 so image processing is slow."}
 [id*="calc"]:hover:after {content:"React, Javascript, HTML, CSS. Stylized browser-based calculator app"}
 [id*="session"]:hover:after {content:"React, Javascript, HTML, CSS. Utilizes React 'hooks.' Stylized browser-based session/break timer app"}
@@ -197,8 +200,9 @@ a:hover {
 [id*="exercise"]:hover:after {content:"Node.js, Express, MongoDB, Javascript, HTML, CSS. Personal exercise log/database with front end. Can return results from specific date ranges. Returns JSON data from query."}
 [id*="urlshort"]:hover:after {content:"Node.js, Express, MongoDB, Javascript, HTML, CSS. Url shortener microservice. Returns JSON data from query based on order in which the link was submitted."}
 
-/** Actually picks out mobile devices by getting touch input type. 
-    Mobile screens are huge now so resolution doesn't really seem to be a good indicator.
+/** 
+Actually picks out mobile devices by getting touch input type. 
+Mobile screens are huge now so resolution doesn't really seem to be a good indicator.
 */
 @media (pointer:none), (pointer:coarse) {
   .card-container {
@@ -233,7 +237,7 @@ a:hover {
     margin: 0 auto;
     padding: 5px;
     text-align: center;
-    font-size: 40px;
+    font-size: 5vh;
     background: linear-gradient(
     180deg,
     var(--green) 0%,
