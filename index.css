@@ -8,6 +8,7 @@
   --grey: #a89984;
   --light-grey: #bdae93;
   --blue: #83a598;
+  --dark-blue: #076678;
   --orange: #d65d0e;
   --bright2: #98971a;
 }
@@ -89,8 +90,7 @@ li {
 
 a {
   text-decoration: none;
-  /* was --green */
-  color: var(--black);
+  color: var(--dark-blue);
 }
 
 a:hover {
@@ -190,7 +190,7 @@ a:hover {
 }
 
 /** Hover content for cards */
-[id*="ramen"]:hover:after {content:"Full-stack Django app with login/authentication, image upload, and image processing to create themes for each item's page. Hosted on an Apache server running on a Raspberry Pi 3 so image processing is slow."}
+[id*="ramen"]:hover:after {content:"Full-stack Django app with login/authentication, image upload, and image processing to create themes for each item's page. Hosted on an Apache server running on a Raspberry Pi 3."}
 [id*="calc"]:hover:after {content:"React, Javascript, HTML, CSS. Stylized browser-based calculator app"}
 [id*="session"]:hover:after {content:"React, Javascript, HTML, CSS. Utilizes React 'hooks.' Stylized browser-based session/break timer app"}
 [id*="choropleth"]:hover:after {content:"Javascript, D3, HTML, CSS. Interactive map of the US showing mean education level of regional populations. Pulls JSON population data and GEOJSON map data from public APIs."}
@@ -225,7 +225,7 @@ Mobile screens are huge now so resolution doesn't really seem to be a good indic
 }
 
 .inline-link{
-  color: var(--purple)
+  color: var(--dark-blue)
 }
 
 .inline-link:hover{
