@@ -199,6 +199,7 @@ a:hover {
 [id*="metadata"]:hover:after {content:"Node.js, Express, Javascript, HTML, CSS. File Upload and metadata parsing microservice. Returns JSON data from query."}
 [id*="exercise"]:hover:after {content:"Node.js, Express, MongoDB, Javascript, HTML, CSS. Personal exercise log/database with front end. Can return results from specific date ranges. Returns JSON data from query."}
 [id*="urlshort"]:hover:after {content:"Node.js, Express, MongoDB, Javascript, HTML, CSS. Url shortener microservice. Returns JSON data from query based on order in which the link was submitted."}
+[id*="pythonmisc"]:hover:after {content:"Python. Various projects and scripts for file processing, web scraping, and other things that need doing."}
 
 /** 
 Actually picks out mobile devices by getting touch input type. 
