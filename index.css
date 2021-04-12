@@ -200,7 +200,15 @@ a:hover {
 [id*="exercise"]:hover:after {content:"Node.js, Express, MongoDB, Javascript, HTML, CSS. Personal exercise log/database with front end. Can return results from specific date ranges. Returns JSON data from query."}
 [id*="urlshort"]:hover:after {content:"Node.js, Express, MongoDB, Javascript, HTML, CSS. Url shortener microservice. Returns JSON data from query based on order in which the link was submitted."}
 [id*="pythonmisc"]:hover:after {content:"Python. Various projects and scripts for file processing, web scraping, and other things that need doing."}
-
+[id*="kseries"]:hover:after {content:"All implements, knife blade, Cerakote coating development."}
+[id*="pseries"]:hover:after {content:"All implements, knife blade."}
+[id*="t4"]:hover:after {content:"All implements, scales, locks, injection-molded filler, hardware, assembly performance and testing, Cerakote coating development."}
+[id*="t2"]:hover:after {content:"All implements, scales, locks, injection-molded filler, hardware, assembly performance and testing."}
+[id*="chargeg10"]:hover:after {content:"Machined G10 scales, hardware, assembly performance & testing."}
+[id*="cch"]:hover:after {content:"Component and weldment design & manufacturing support."}
+[id*="ccm"]:hover:after {content:"Crew served weapon mount re-design, gear oil reservoir design, design and support of numerous other outfitting and structural components."}
+[id*="smallcoil"]:hover:after {content:"Stress analysis of existing lifting fixture. After FEA simulation and calcs, I determined that a retrofit of reinforcing plates at major stress locations would allow for safe operation at slightly reduced capacity."}
+[id*="largecoil"]:hover:after {content:"Complete design from concept through production and operator training. Fixture for overhead lifting of 12k lbs with 5:1 factor of safety. FEA and hand calculations resulting in PE signoff."}
 /** 
 Actually picks out mobile devices by getting touch input type. 
 Mobile screens are huge now so resolution doesn't really seem to be a good indicator.
